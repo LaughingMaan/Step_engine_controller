@@ -1,0 +1,178 @@
+MPLINK 5.09, LINKER
+Linker Map File - Created Wed May 06 20:21:30 2020
+
+                                 Section Info
+                  Section       Type    Address   Location Size(Bytes)
+                ---------  ---------  ---------  ---------  ---------
+                   .org_0       code   0x000000    program   0x000002
+                   .cinit    romdata   0x000001    program   0x000004
+                   .org_1       code   0x000004    program   0x0001a6
+                   .org_2       code   0x000400    program   0x0002f8
+.config_2007_BUILD/DEFAULT/PRODUCTION/MAIN.O       code   0x002007    program   0x000002
+
+
+
+                              Program Memory Usage 
+                               Start         End      
+                           ---------   ---------      
+                            0x000000    0x000002      
+                            0x000004    0x0000d6      
+                            0x000400    0x00057b      
+                            0x002007    0x002007      
+            595 out of 8454 program addresses used, program memory utilization is 7%
+
+
+
+                              Symbols - Sorted by Name
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                ADC_check   0x000462    program     static C:\Users\Andrey\Desktop\DATA\MPLABXProjects\AlexeyPolozov.X\Interrupt.inc
+                     Both   0x000524    program     static C:\Users\Andrey\Desktop\DATA\MPLABXProjects\AlexeyPolozov.X\Interrupt.inc
+                     Calc   0x000400    program     static C:\Users\Andrey\Desktop\DATA\MPLABXProjects\AlexeyPolozov.X\Main.asm
+             Command_move   0x000508    program     static C:\Users\Andrey\Desktop\DATA\MPLABXProjects\AlexeyPolozov.X\Interrupt.inc
+                    Count   0x000558    program     static C:\Users\Andrey\Desktop\DATA\MPLABXProjects\AlexeyPolozov.X\Interrupt.inc
+          DAC_Write_cycle   0x0004a6    program     static C:\Users\Andrey\Desktop\DATA\MPLABXProjects\AlexeyPolozov.X\Interrupt.inc
+                  DAC_dec   0x00048e    program     static C:\Users\Andrey\Desktop\DATA\MPLABXProjects\AlexeyPolozov.X\Interrupt.inc
+                  DAC_inc   0x000487    program     static C:\Users\Andrey\Desktop\DATA\MPLABXProjects\AlexeyPolozov.X\Interrupt.inc
+                  DAC_rlf   0x00049f    program     static C:\Users\Andrey\Desktop\DATA\MPLABXProjects\AlexeyPolozov.X\Interrupt.inc
+                DAC_write   0x000497    program     static C:\Users\Andrey\Desktop\DATA\MPLABXProjects\AlexeyPolozov.X\Interrupt.inc
+         Detect_direction   0x0000ad    program     static C:\Users\Andrey\Desktop\DATA\MPLABXProjects\AlexeyPolozov.X\Main.asm
+             Detect_laser   0x0000b8    program     static C:\Users\Andrey\Desktop\DATA\MPLABXProjects\AlexeyPolozov.X\Main.asm
+                 F_symbol   0x0000ab    program     static C:\Users\Andrey\Desktop\DATA\MPLABXProjects\AlexeyPolozov.X\Main.asm
+                 Got_XYZF   0x000040    program     static C:\Users\Andrey\Desktop\DATA\MPLABXProjects\AlexeyPolozov.X\Main.asm
+              Got_command   0x000065    program     static C:\Users\Andrey\Desktop\DATA\MPLABXProjects\AlexeyPolozov.X\Main.asm
+                  Got_dir   0x000053    program     static C:\Users\Andrey\Desktop\DATA\MPLABXProjects\AlexeyPolozov.X\Main.asm
+                Got_laser   0x000056    program     static C:\Users\Andrey\Desktop\DATA\MPLABXProjects\AlexeyPolozov.X\Main.asm
+                Got_move1   0x000043    program     static C:\Users\Andrey\Desktop\DATA\MPLABXProjects\AlexeyPolozov.X\Main.asm
+                Got_move2   0x000047    program     static C:\Users\Andrey\Desktop\DATA\MPLABXProjects\AlexeyPolozov.X\Main.asm
+                Got_move3   0x00004b    program     static C:\Users\Andrey\Desktop\DATA\MPLABXProjects\AlexeyPolozov.X\Main.asm
+                Got_move4   0x00004f    program     static C:\Users\Andrey\Desktop\DATA\MPLABXProjects\AlexeyPolozov.X\Main.asm
+                Interrupt   0x000440    program     static C:\Users\Andrey\Desktop\DATA\MPLABXProjects\AlexeyPolozov.X\Interrupt.inc
+              LoadLowByte   0x000568    program     static C:\Users\Andrey\Desktop\DATA\MPLABXProjects\AlexeyPolozov.X\Interrupt.inc
+               Minus_both   0x00053c    program     static C:\Users\Andrey\Desktop\DATA\MPLABXProjects\AlexeyPolozov.X\Interrupt.inc
+              Minus_setup   0x0000b2    program     static C:\Users\Andrey\Desktop\DATA\MPLABXProjects\AlexeyPolozov.X\Main.asm
+          NO_overflow_err   0x0004fc    program     static C:\Users\Andrey\Desktop\DATA\MPLABXProjects\AlexeyPolozov.X\Interrupt.inc
+                Next_byte   0x000059    program     static C:\Users\Andrey\Desktop\DATA\MPLABXProjects\AlexeyPolozov.X\Main.asm
+                 One_byte   0x000023    program     static C:\Users\Andrey\Desktop\DATA\MPLABXProjects\AlexeyPolozov.X\Main.asm
+                Plus_both   0x000533    program     static C:\Users\Andrey\Desktop\DATA\MPLABXProjects\AlexeyPolozov.X\Interrupt.inc
+               Plus_setup   0x0000b6    program     static C:\Users\Andrey\Desktop\DATA\MPLABXProjects\AlexeyPolozov.X\Main.asm
+                 RX_check   0x0004e0    program     static C:\Users\Andrey\Desktop\DATA\MPLABXProjects\AlexeyPolozov.X\Interrupt.inc
+                  RX_read   0x0004ef    program     static C:\Users\Andrey\Desktop\DATA\MPLABXProjects\AlexeyPolozov.X\Interrupt.inc
+                  RX_skip   0x000507    program     static C:\Users\Andrey\Desktop\DATA\MPLABXProjects\AlexeyPolozov.X\Interrupt.inc
+                SoloPlusY   0x00051f    program     static C:\Users\Andrey\Desktop\DATA\MPLABXProjects\AlexeyPolozov.X\Interrupt.inc
+                Solo_Plus   0x000518    program     static C:\Users\Andrey\Desktop\DATA\MPLABXProjects\AlexeyPolozov.X\Interrupt.inc
+               Solo_minus   0x00050c    program     static C:\Users\Andrey\Desktop\DATA\MPLABXProjects\AlexeyPolozov.X\Interrupt.inc
+              Solo_minusY   0x000513    program     static C:\Users\Andrey\Desktop\DATA\MPLABXProjects\AlexeyPolozov.X\Interrupt.inc
+            Step_counter1   0x00006a    program     static C:\Users\Andrey\Desktop\DATA\MPLABXProjects\AlexeyPolozov.X\Main.asm
+            Step_counter2   0x000077    program     static C:\Users\Andrey\Desktop\DATA\MPLABXProjects\AlexeyPolozov.X\Main.asm
+            Step_counter3   0x000086    program     static C:\Users\Andrey\Desktop\DATA\MPLABXProjects\AlexeyPolozov.X\Main.asm
+            Step_counter4   0x000090    program     static C:\Users\Andrey\Desktop\DATA\MPLABXProjects\AlexeyPolozov.X\Main.asm
+               TMR0_check   0x00044b    program     static C:\Users\Andrey\Desktop\DATA\MPLABXProjects\AlexeyPolozov.X\Interrupt.inc
+                TMR0_skip   0x00045b    program     static C:\Users\Andrey\Desktop\DATA\MPLABXProjects\AlexeyPolozov.X\Interrupt.inc
+               TMR1_check   0x00045b    program     static C:\Users\Andrey\Desktop\DATA\MPLABXProjects\AlexeyPolozov.X\Interrupt.inc
+                TMR1_skip   0x000462    program     static C:\Users\Andrey\Desktop\DATA\MPLABXProjects\AlexeyPolozov.X\Interrupt.inc
+                 TX_check   0x0004b8    program     static C:\Users\Andrey\Desktop\DATA\MPLABXProjects\AlexeyPolozov.X\Interrupt.inc
+            TX_send_ready   0x0004c4    program     static C:\Users\Andrey\Desktop\DATA\MPLABXProjects\AlexeyPolozov.X\Interrupt.inc
+                Two_bytes   0x00005f    program     static C:\Users\Andrey\Desktop\DATA\MPLABXProjects\AlexeyPolozov.X\Main.asm
+              USART_cycle   0x00001f    program     static C:\Users\Andrey\Desktop\DATA\MPLABXProjects\AlexeyPolozov.X\Main.asm
+              USART_ready   0x000017    program     static C:\Users\Andrey\Desktop\DATA\MPLABXProjects\AlexeyPolozov.X\Main.asm
+                    V1_24   0x000475    program     static C:\Users\Andrey\Desktop\DATA\MPLABXProjects\AlexeyPolozov.X\Interrupt.inc
+                     V5_0   0x00046a    program     static C:\Users\Andrey\Desktop\DATA\MPLABXProjects\AlexeyPolozov.X\Interrupt.inc
+                     Wait   0x0000be    program     static C:\Users\Andrey\Desktop\DATA\MPLABXProjects\AlexeyPolozov.X\Main.asm
+                     Work   0x000095    program     static C:\Users\Andrey\Desktop\DATA\MPLABXProjects\AlexeyPolozov.X\Main.asm
+                        X   0x0000a4    program     static C:\Users\Andrey\Desktop\DATA\MPLABXProjects\AlexeyPolozov.X\Main.asm
+              XPlusYMinus   0x000545    program     static C:\Users\Andrey\Desktop\DATA\MPLABXProjects\AlexeyPolozov.X\Interrupt.inc
+                        Y   0x0000a6    program     static C:\Users\Andrey\Desktop\DATA\MPLABXProjects\AlexeyPolozov.X\Main.asm
+              YPlusXMinus   0x00054e    program     static C:\Users\Andrey\Desktop\DATA\MPLABXProjects\AlexeyPolozov.X\Interrupt.inc
+                 Z_symbol   0x0000a8    program     static C:\Users\Andrey\Desktop\DATA\MPLABXProjects\AlexeyPolozov.X\Main.asm
+               _NEXT_LOOP   0x00056b    program     static C:\Users\Andrey\Desktop\DATA\MPLABXProjects\AlexeyPolozov.X\Interrupt.inc
+              _NEXT_LOOP0   0x00056a    program     static C:\Users\Andrey\Desktop\DATA\MPLABXProjects\AlexeyPolozov.X\Interrupt.inc
+                   calEnd   0x0004b4    program     static C:\Users\Andrey\Desktop\DATA\MPLABXProjects\AlexeyPolozov.X\Interrupt.inc
+                 calLaser   0x0004d7    program     static C:\Users\Andrey\Desktop\DATA\MPLABXProjects\AlexeyPolozov.X\Interrupt.inc
+                     calX   0x0004c7    program     static C:\Users\Andrey\Desktop\DATA\MPLABXProjects\AlexeyPolozov.X\Interrupt.inc
+                     calY   0x0004cf    program     static C:\Users\Andrey\Desktop\DATA\MPLABXProjects\AlexeyPolozov.X\Interrupt.inc
+              calibration   0x000008    program     static C:\Users\Andrey\Desktop\DATA\MPLABXProjects\AlexeyPolozov.X\Main.asm
+                    dec_H   0x00055d    program     static C:\Users\Andrey\Desktop\DATA\MPLABXProjects\AlexeyPolozov.X\Interrupt.inc
+               delimitter   0x000505    program     static C:\Users\Andrey\Desktop\DATA\MPLABXProjects\AlexeyPolozov.X\Interrupt.inc
+                     init   0x00040f    program     static C:\Users\Andrey\Desktop\DATA\MPLABXProjects\AlexeyPolozov.X\Init.inc
+                 rollback   0x000571    program     static C:\Users\Andrey\Desktop\DATA\MPLABXProjects\AlexeyPolozov.X\Interrupt.inc
+                    start   0x000005    program     static C:\Users\Andrey\Desktop\DATA\MPLABXProjects\AlexeyPolozov.X\Main.asm
+
+
+
+                              Symbols - Sorted by Address
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                    start   0x000005    program     static C:\Users\Andrey\Desktop\DATA\MPLABXProjects\AlexeyPolozov.X\Main.asm
+              calibration   0x000008    program     static C:\Users\Andrey\Desktop\DATA\MPLABXProjects\AlexeyPolozov.X\Main.asm
+              USART_ready   0x000017    program     static C:\Users\Andrey\Desktop\DATA\MPLABXProjects\AlexeyPolozov.X\Main.asm
+              USART_cycle   0x00001f    program     static C:\Users\Andrey\Desktop\DATA\MPLABXProjects\AlexeyPolozov.X\Main.asm
+                 One_byte   0x000023    program     static C:\Users\Andrey\Desktop\DATA\MPLABXProjects\AlexeyPolozov.X\Main.asm
+                 Got_XYZF   0x000040    program     static C:\Users\Andrey\Desktop\DATA\MPLABXProjects\AlexeyPolozov.X\Main.asm
+                Got_move1   0x000043    program     static C:\Users\Andrey\Desktop\DATA\MPLABXProjects\AlexeyPolozov.X\Main.asm
+                Got_move2   0x000047    program     static C:\Users\Andrey\Desktop\DATA\MPLABXProjects\AlexeyPolozov.X\Main.asm
+                Got_move3   0x00004b    program     static C:\Users\Andrey\Desktop\DATA\MPLABXProjects\AlexeyPolozov.X\Main.asm
+                Got_move4   0x00004f    program     static C:\Users\Andrey\Desktop\DATA\MPLABXProjects\AlexeyPolozov.X\Main.asm
+                  Got_dir   0x000053    program     static C:\Users\Andrey\Desktop\DATA\MPLABXProjects\AlexeyPolozov.X\Main.asm
+                Got_laser   0x000056    program     static C:\Users\Andrey\Desktop\DATA\MPLABXProjects\AlexeyPolozov.X\Main.asm
+                Next_byte   0x000059    program     static C:\Users\Andrey\Desktop\DATA\MPLABXProjects\AlexeyPolozov.X\Main.asm
+                Two_bytes   0x00005f    program     static C:\Users\Andrey\Desktop\DATA\MPLABXProjects\AlexeyPolozov.X\Main.asm
+              Got_command   0x000065    program     static C:\Users\Andrey\Desktop\DATA\MPLABXProjects\AlexeyPolozov.X\Main.asm
+            Step_counter1   0x00006a    program     static C:\Users\Andrey\Desktop\DATA\MPLABXProjects\AlexeyPolozov.X\Main.asm
+            Step_counter2   0x000077    program     static C:\Users\Andrey\Desktop\DATA\MPLABXProjects\AlexeyPolozov.X\Main.asm
+            Step_counter3   0x000086    program     static C:\Users\Andrey\Desktop\DATA\MPLABXProjects\AlexeyPolozov.X\Main.asm
+            Step_counter4   0x000090    program     static C:\Users\Andrey\Desktop\DATA\MPLABXProjects\AlexeyPolozov.X\Main.asm
+                     Work   0x000095    program     static C:\Users\Andrey\Desktop\DATA\MPLABXProjects\AlexeyPolozov.X\Main.asm
+                        X   0x0000a4    program     static C:\Users\Andrey\Desktop\DATA\MPLABXProjects\AlexeyPolozov.X\Main.asm
+                        Y   0x0000a6    program     static C:\Users\Andrey\Desktop\DATA\MPLABXProjects\AlexeyPolozov.X\Main.asm
+                 Z_symbol   0x0000a8    program     static C:\Users\Andrey\Desktop\DATA\MPLABXProjects\AlexeyPolozov.X\Main.asm
+                 F_symbol   0x0000ab    program     static C:\Users\Andrey\Desktop\DATA\MPLABXProjects\AlexeyPolozov.X\Main.asm
+         Detect_direction   0x0000ad    program     static C:\Users\Andrey\Desktop\DATA\MPLABXProjects\AlexeyPolozov.X\Main.asm
+              Minus_setup   0x0000b2    program     static C:\Users\Andrey\Desktop\DATA\MPLABXProjects\AlexeyPolozov.X\Main.asm
+               Plus_setup   0x0000b6    program     static C:\Users\Andrey\Desktop\DATA\MPLABXProjects\AlexeyPolozov.X\Main.asm
+             Detect_laser   0x0000b8    program     static C:\Users\Andrey\Desktop\DATA\MPLABXProjects\AlexeyPolozov.X\Main.asm
+                     Wait   0x0000be    program     static C:\Users\Andrey\Desktop\DATA\MPLABXProjects\AlexeyPolozov.X\Main.asm
+                     Calc   0x000400    program     static C:\Users\Andrey\Desktop\DATA\MPLABXProjects\AlexeyPolozov.X\Main.asm
+                     init   0x00040f    program     static C:\Users\Andrey\Desktop\DATA\MPLABXProjects\AlexeyPolozov.X\Init.inc
+                Interrupt   0x000440    program     static C:\Users\Andrey\Desktop\DATA\MPLABXProjects\AlexeyPolozov.X\Interrupt.inc
+               TMR0_check   0x00044b    program     static C:\Users\Andrey\Desktop\DATA\MPLABXProjects\AlexeyPolozov.X\Interrupt.inc
+               TMR1_check   0x00045b    program     static C:\Users\Andrey\Desktop\DATA\MPLABXProjects\AlexeyPolozov.X\Interrupt.inc
+                TMR0_skip   0x00045b    program     static C:\Users\Andrey\Desktop\DATA\MPLABXProjects\AlexeyPolozov.X\Interrupt.inc
+                TMR1_skip   0x000462    program     static C:\Users\Andrey\Desktop\DATA\MPLABXProjects\AlexeyPolozov.X\Interrupt.inc
+                ADC_check   0x000462    program     static C:\Users\Andrey\Desktop\DATA\MPLABXProjects\AlexeyPolozov.X\Interrupt.inc
+                     V5_0   0x00046a    program     static C:\Users\Andrey\Desktop\DATA\MPLABXProjects\AlexeyPolozov.X\Interrupt.inc
+                    V1_24   0x000475    program     static C:\Users\Andrey\Desktop\DATA\MPLABXProjects\AlexeyPolozov.X\Interrupt.inc
+                  DAC_inc   0x000487    program     static C:\Users\Andrey\Desktop\DATA\MPLABXProjects\AlexeyPolozov.X\Interrupt.inc
+                  DAC_dec   0x00048e    program     static C:\Users\Andrey\Desktop\DATA\MPLABXProjects\AlexeyPolozov.X\Interrupt.inc
+                DAC_write   0x000497    program     static C:\Users\Andrey\Desktop\DATA\MPLABXProjects\AlexeyPolozov.X\Interrupt.inc
+                  DAC_rlf   0x00049f    program     static C:\Users\Andrey\Desktop\DATA\MPLABXProjects\AlexeyPolozov.X\Interrupt.inc
+          DAC_Write_cycle   0x0004a6    program     static C:\Users\Andrey\Desktop\DATA\MPLABXProjects\AlexeyPolozov.X\Interrupt.inc
+                   calEnd   0x0004b4    program     static C:\Users\Andrey\Desktop\DATA\MPLABXProjects\AlexeyPolozov.X\Interrupt.inc
+                 TX_check   0x0004b8    program     static C:\Users\Andrey\Desktop\DATA\MPLABXProjects\AlexeyPolozov.X\Interrupt.inc
+            TX_send_ready   0x0004c4    program     static C:\Users\Andrey\Desktop\DATA\MPLABXProjects\AlexeyPolozov.X\Interrupt.inc
+                     calX   0x0004c7    program     static C:\Users\Andrey\Desktop\DATA\MPLABXProjects\AlexeyPolozov.X\Interrupt.inc
+                     calY   0x0004cf    program     static C:\Users\Andrey\Desktop\DATA\MPLABXProjects\AlexeyPolozov.X\Interrupt.inc
+                 calLaser   0x0004d7    program     static C:\Users\Andrey\Desktop\DATA\MPLABXProjects\AlexeyPolozov.X\Interrupt.inc
+                 RX_check   0x0004e0    program     static C:\Users\Andrey\Desktop\DATA\MPLABXProjects\AlexeyPolozov.X\Interrupt.inc
+                  RX_read   0x0004ef    program     static C:\Users\Andrey\Desktop\DATA\MPLABXProjects\AlexeyPolozov.X\Interrupt.inc
+          NO_overflow_err   0x0004fc    program     static C:\Users\Andrey\Desktop\DATA\MPLABXProjects\AlexeyPolozov.X\Interrupt.inc
+               delimitter   0x000505    program     static C:\Users\Andrey\Desktop\DATA\MPLABXProjects\AlexeyPolozov.X\Interrupt.inc
+                  RX_skip   0x000507    program     static C:\Users\Andrey\Desktop\DATA\MPLABXProjects\AlexeyPolozov.X\Interrupt.inc
+             Command_move   0x000508    program     static C:\Users\Andrey\Desktop\DATA\MPLABXProjects\AlexeyPolozov.X\Interrupt.inc
+               Solo_minus   0x00050c    program     static C:\Users\Andrey\Desktop\DATA\MPLABXProjects\AlexeyPolozov.X\Interrupt.inc
+              Solo_minusY   0x000513    program     static C:\Users\Andrey\Desktop\DATA\MPLABXProjects\AlexeyPolozov.X\Interrupt.inc
+                Solo_Plus   0x000518    program     static C:\Users\Andrey\Desktop\DATA\MPLABXProjects\AlexeyPolozov.X\Interrupt.inc
+                SoloPlusY   0x00051f    program     static C:\Users\Andrey\Desktop\DATA\MPLABXProjects\AlexeyPolozov.X\Interrupt.inc
+                     Both   0x000524    program     static C:\Users\Andrey\Desktop\DATA\MPLABXProjects\AlexeyPolozov.X\Interrupt.inc
+                Plus_both   0x000533    program     static C:\Users\Andrey\Desktop\DATA\MPLABXProjects\AlexeyPolozov.X\Interrupt.inc
+               Minus_both   0x00053c    program     static C:\Users\Andrey\Desktop\DATA\MPLABXProjects\AlexeyPolozov.X\Interrupt.inc
+              XPlusYMinus   0x000545    program     static C:\Users\Andrey\Desktop\DATA\MPLABXProjects\AlexeyPolozov.X\Interrupt.inc
+              YPlusXMinus   0x00054e    program     static C:\Users\Andrey\Desktop\DATA\MPLABXProjects\AlexeyPolozov.X\Interrupt.inc
+                    Count   0x000558    program     static C:\Users\Andrey\Desktop\DATA\MPLABXProjects\AlexeyPolozov.X\Interrupt.inc
+                    dec_H   0x00055d    program     static C:\Users\Andrey\Desktop\DATA\MPLABXProjects\AlexeyPolozov.X\Interrupt.inc
+              LoadLowByte   0x000568    program     static C:\Users\Andrey\Desktop\DATA\MPLABXProjects\AlexeyPolozov.X\Interrupt.inc
+              _NEXT_LOOP0   0x00056a    program     static C:\Users\Andrey\Desktop\DATA\MPLABXProjects\AlexeyPolozov.X\Interrupt.inc
+               _NEXT_LOOP   0x00056b    program     static C:\Users\Andrey\Desktop\DATA\MPLABXProjects\AlexeyPolozov.X\Interrupt.inc
+                 rollback   0x000571    program     static C:\Users\Andrey\Desktop\DATA\MPLABXProjects\AlexeyPolozov.X\Interrupt.inc
+
+
